@@ -67,7 +67,7 @@ application:
             feed: "/whisk.system/alarms/interval"
             inputs:
               minutes: 60
-         markUpCleanUpTrigger:
+          markUpCleanUpTrigger:
             feed: "/whisk.system/alarms/interval"
             inputs:
               minutes: 60
