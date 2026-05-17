@@ -341,6 +341,8 @@ async function requestSaaS(query, operationName, variables, context) {
       'magento-store-view-code': config.headers?.cs?.['Magento-Store-View-Code'],
       'magento-website-code': config.headers?.cs?.['Magento-Website-Code'],
       'x-api-key': config.headers?.cs?.['x-api-key'],
+      'ac-view-id': config.headers?.cs?.['ac-view-id'],
+      'ac-price-book-id': config.headers?.cs?.['ac-price-book-id'],
     }),
     // bypass LiveSearch cache
     'Magento-Is-Preview': true,
